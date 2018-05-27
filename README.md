@@ -4,7 +4,8 @@
 ```
 Step1:- Run command on terminal git clone https://github.com/vermaboys/crud-application-module-in-laravel.git
 Step2:- Run command on terminal php artisan migrate
-Step3:- Now you can access using http://localhost/crud-application-module-in-laravel/student
+Step3:- Run command on terminal composer install
+Step4:- Now you can access using http://localhost/crud-application-module-in-laravel/student
 ```
 
 ## you can also write code in own project using following instructions
@@ -49,7 +50,7 @@ class CreateStudentTable extends Migration
 ```
 
 ```
-let's create a simple Eloquent model so that we can access the nerds in our database easily.
+let's create a simple Eloquent model so that we can access the student in our database easily.
 Run command php artisan make:model Student
 This will create our Student Model in appns. Open up that file and let's add table and column's table.
 
