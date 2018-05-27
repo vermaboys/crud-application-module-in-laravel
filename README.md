@@ -1,9 +1,11 @@
 # crud-application-module-in-laravel
 
 ## you can get full project using git clone
+```
 Step1:- Run command on terminal git clone https://github.com/vermaboys/crud-application-module-in-laravel.git
 Step2:- Run command on terminal php artisan migrate
 Step3:- Now you can access using http://localhost/crud-application-module-in-laravel/student
+```
 
 ## you can also write code in own project using following instructions
 
