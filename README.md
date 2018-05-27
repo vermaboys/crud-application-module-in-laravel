@@ -52,7 +52,7 @@ class CreateStudentTable extends Migration
 ```
 let's create a simple Eloquent model so that we can access the student in our database easily.
 Run command php artisan make:model Student
-This will create our Student Model in appns. Open up that file and let's add table and column's table.
+This will create our Student Model in app. Open up that file and let's add table and column's table.
 
 
 <?php
