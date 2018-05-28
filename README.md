@@ -1,7 +1,5 @@
 # crud-application-module-in-laravel
 
-## You Tube => https://youtu.be/jo2Ed8XDues
-
 ## you can get full project using git clone
 ```
 Step1:- Run command on terminal git clone https://github.com/vermaboys/crud-application-module-in-laravel.git
@@ -68,6 +66,11 @@ class Student extends Model
 	protected $table='student';
     protected $fillable=['name','email'];
 }
+?>
+```
+
+```
+Run command on terminal php artisan migrate
 ```
 
 ```
@@ -202,6 +205,10 @@ class StudentController extends Controller
         return Redirect::to('student');
     }
 }
+```
+
+```
+Route::resource('student', 'StudentController');
 ```
 
 ```
