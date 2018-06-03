@@ -1,6 +1,6 @@
 # crud-application-module-in-laravel
 
-## You tube==> https://youtu.be/OwYsQfIzDMo
+## You Tube==> https://youtu.be/OwYsQfIzDMo
 
 ## you can get full project using git clone
 ```
